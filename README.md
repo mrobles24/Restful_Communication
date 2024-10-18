@@ -33,3 +33,6 @@ Este programa simula la comunicación asincrónica entre tres agentes utilizando
 - El archivo, una vez realizadas diferentes ejecuciones, se parecerá al siguiente ejemplo:
   
   ![image](https://github.com/user-attachments/assets/cf8f4abd-43b1-4943-a585-f8d60fa78fcd)
+
+## Reflexiones
+Las communicaciones Restful pueden utilizarse para la comunicación grupal en escenarios donde la comunicación no tiene estado y no se requieren actualizaciones en tiempo real. Para este escenario, funciona bien, ya que los agentes pueden comunicarse de manera asincrónica y el coordinador recopila las respuestas según sea necesario. Sin embargo, para una comunicación grupal más compleja o en tiempo real, otros protocolos como colas de mensajes (por ejemplo, RabbitMQ) podrían ser más eficientes, ya que manejan mejor el estado y la comunicación asincrónica.
