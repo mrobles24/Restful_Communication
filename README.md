@@ -1,4 +1,4 @@
-# Practica 2 Restful_Communication
+# Restful Communication con flask
 
 ## Descripción General
 
